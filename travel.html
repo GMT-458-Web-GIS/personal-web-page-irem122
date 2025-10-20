@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | İrem Kızıltepe</title>
+  <title>Travel | İrem Kızıltepe</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="script.js" defer></script>
+
 </head>
-
 <body>
-  <div class="background" style="opacity: 1;"></div>
+  <div class="background" style="opacity: 0.35;"></div>
 
 
-  <!-- Sidebar -->
   <div class="sidebar">
     <div class="profile-section">
       <img src="images/IMG_7609.jpeg" alt="Profile Photo" class="profile-pic" />
@@ -27,18 +29,12 @@
     </div>
   </div>
 
-  <!-- Main content -->
   <div class="content">
-    <section class="section visible">
-      <div class="home-content">
-        <h1 class="home-name">İrem Kızıltepe</h1>
-        <p class="animated-text">Exploring Space, Land, and Data</p>
-        <div class="home-buttons">
-          <a href="about.html"><button>📄 About Me</button></a>
-          <a href="experience.html"><button>🌍 Experience</button></a>
-          <a href="contact.html"><button>📬 Contact</button></a>
-        </div>
-      </div>
+    <section id="travel" class="section visible">
+      <h1>✈️ Travel Distance Calculator</h1>
+      <p>Click two locations on the map to calculate distance, flight & drive times, and time difference.</p>
+      <div id="map" style="height:520px; border-radius:12px;"></div>
+      <div id="travel-info"></div>
     </section>
   </div>
 </body>
