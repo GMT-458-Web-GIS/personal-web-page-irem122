@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experience | İrem Kızıltepe</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="background" style="opacity: 0.35;"></div>
+
+
+  <div class="sidebar">
+    <div class="profile-section">
+      <img src="images/IMG_7609.jpeg" alt="Profile Photo" class="profile-pic" />
+      <h2>İrem Kızıltepe</h2>
+      <p>Geomatics Engineer</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="experience.html">Experience</a>
+        <a href="travel.html">Travel</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="content">
+    <section class="section visible">
+      <h1>Experience</h1>
+      <div class="experience-grid">
+
+        <div class="exp-card">
+          <img src="images/logo.png" alt="Agrovisio Logo" class="company-logo" />
+          <h2>Agrovisio Official</h2>
+          <h3>Aug 04 – Aug 29, 2025</h3>
+          <button class="more-btn" onclick="openModal('agrovisio')">Daha fazlası ➜</button>
+        </div>
+
+        <div class="exp-card">
+          <img src="images/images.png" alt="Globetech Logo" class="company-logo" />
+          <h2>Globetech – Geographical Information Technologies</h2>
+          <h3>Jun 10 – Jul 12, 2024</h3>
+          <button class="more-btn" onclick="openModal('globetech')">Daha fazlası ➜</button>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Modals -->
+  <div id="modal-agrovisio" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('agrovisio')">&times;</span>
+      <h2>Agrovisio Official</h2>
+      <ul>
+        <li>Generated NDVI from Sentinel-2 imagery for agricultural monitoring.</li>
+        <li>Clustered NDVI data using KMeans and KShape algorithms.</li>
+        <li>Developed Python workflows using Rasterio and GeoPandas.</li>
+      </ul>
+      <div class="modal-images">
+        <img src="experience images/Ekran Resmi 2025-10-17 15.46.36.png" />
+        <img src="experience images/Ekran Resmi 2025-10-17 15.47.09.png" />
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-globetech" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('globetech')">&times;</span>
+      <h2>Globetech – Geographical Information Technologies</h2>
+      <ul>
+        <li>Performed spatial data management and visualization using ArcGIS.</li>
+        <li>Analyzed infrastructure and service deficiencies in Ankara neighborhoods.</li>
+        <li>Presented results for planning and decision-making.</li>
+      </ul>
+      <div class="modal-images">
+        <img src="experience images/Ekran Resmi 2025-10-17 15.48.26.png" />
+        <img src="experience images/Ekran Resmi 2025-10-17 15.48.59.png" />
+      </div>
+    </div>
+  </div>
+</body>
+</html>
