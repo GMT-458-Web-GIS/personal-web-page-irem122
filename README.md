@@ -34,9 +34,8 @@ The “Travel Distance Calculator” page allows users to:
 | **Reverse Geocoding API** | Nominatim (OpenStreetMap) | Retrieves city, district, and country names for selected points |
 
 ---
-
 ## 🌐 Live Demo
-🔗 **[https://irem122.github.io/irem_portfolio/](https://irem122.github.io/irem_portfolio/)**
+🔗 **[https://gmt-458-web-gis.github.io/personal-web-page-irem122/](https://gmt-458-web-gis.github.io/personal-web-page-irem122/)**
 
 ---
 
